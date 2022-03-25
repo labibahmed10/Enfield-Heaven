@@ -3,13 +3,13 @@
     "id": 10,
     "name": "Royal Enfield-Bullet",
     "price": 30000,
-    "img": "../royal-1.png"
+    "img": "../images/royal-0.png"
   },
   {
     "id": 11,
     "name": "Royal Enfield-Scram",
     "price": 40000,
-    "img": "../royal-1.png"
+    "img": "../images/royal-1.png"
   },
   {
     "id": 12,
@@ -21,48 +21,48 @@
     "id": 13,
     "name": "Royal Enfield-Himalayan",
     "price": 48000,
-    "img": "../royal-3.png"
+    "img": "../images/royal-2.png"
   },
   {
     "id": 14,
     "name": "Royal Enfield-continental",
     "price": 50000,
-    "img": "../royal-4.png"
+    "img": "../images/royal-3.png"
   },
   {
     "id": 15,
     "name": "Royal Enfield-Interceptor",
     "price": 55000,
-    "img": "../royal-5.png"
+    "img": "../images/royal-4.png"
   },
   {
     "id": 16,
     "name": "Royal Enfield-Panniers",
     "price": 59000,
-    "img": "../royal-6.png"
+    "img": "../images/royal-5.png"
   },
   {
     "id": 17,
     "name": "Royal Enfield-350",
     "price": 60000,
-    "img": "../royal-7.png"
+    "img": "../images/royal-6.png"
   },
   {
     "id": 18,
     "name": "Royal Enfield-450",
     "price": 65000,
-    "img": "../royal-8.png"
+    "img": "../images/royal-7.png"
   },
   {
     "id": 19,
     "name": "Royal Enfield-550",
     "price": 68000,
-    "img": "../royal-9.png"
+    "img": "../images/royal-8.png"
   },
   {
     "id": 20,
     "name": "Royal Enfield-610",
     "price": 70000,
-    "img": "../royal-10.png"
+    "img": "../images/royal-9.png"
   }
 ]
