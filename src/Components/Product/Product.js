@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Bikes from "../Bikes/Bikes";
+import Cart from "../Cart/Cart";
 import "./Product.css";
 
 const Product = () => {
@@ -18,7 +19,9 @@ const Product = () => {
           <Bikes key={bike.id} data={bike}></Bikes>
         ))}
       </section>
-      <aside className="cart-container"></aside>
+      <aside className="cart-container">
+        <Cart></Cart>
+      </aside>
     </section>
   );
 };

@@ -9,7 +9,7 @@ const Bikes = ({ data }) => {
     <div className="card">
       <img src={img} alt="" />
       <h2>{name}</h2>
-      <h3>{price}</h3>
+      <h3>Price: {price}$</h3>
 
       <button>
         Add To Cart <FaCartPlus></FaCartPlus>
