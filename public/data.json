@@ -1,66 +1,66 @@
 [
   {
-    "id": 10,
+    "id": 1,
     "name": "Royal Enfield-Bullet",
     "price": 30000,
     "img": "https://images.unsplash.com/photo-1560847809-8a818fb8045f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
   },
   {
-    "id": 11,
+    "id": 2,
     "name": "Royal Enfield-Scram",
     "price": 40000,
     "img": "https://images.unsplash.com/photo-1622185134994-3e87da0f1bb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
   },
   {
-    "id": 12,
+    "id": 3,
     "name": "Royal Enfield-Meteror",
     "price": 45000,
     "img": "https://images.unsplash.com/photo-1622185135505-2d795003994a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
   {
-    "id": 13,
+    "id": 4,
     "name": "Royal Enfield-Himalayan",
     "price": 48000,
     "img": "https://images.unsplash.com/photo-1611429532458-f8bf8f6121fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=679&q=80"
   },
   {
-    "id": 14,
+    "id": 5,
     "name": "Royal Enfield-continental",
     "price": 50000,
     "img": "https://images.unsplash.com/photo-1601574013379-a98bfb813376?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
   },
   {
-    "id": 15,
+    "id": 6,
     "name": "Royal Enfield-Interceptor",
     "price": 55000,
     "img": "https://images.unsplash.com/photo-1614152412509-7a5afc18c75b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
   },
   {
-    "id": 16,
+    "id": 7,
     "name": "Royal Enfield-Panniers",
     "price": 59000,
     "img": "https://images.unsplash.com/photo-1583248980300-075f262b3d17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
   },
   {
-    "id": 17,
+    "id": 8,
     "name": "Royal Enfield-350",
     "price": 60000,
     "img": "https://images.unsplash.com/photo-1629571688673-55436b6c732a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1151&q=80"
   },
   {
-    "id": 18,
+    "id": 9,
     "name": "Royal Enfield-450",
     "price": 65000,
     "img": "https://images.unsplash.com/photo-1625395023625-b99a3f3a0dba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
   },
   {
-    "id": 19,
+    "id": 10,
     "name": "Royal Enfield-550",
     "price": 68000,
     "img": "https://images.unsplash.com/photo-1622547918989-02ebc7a89eb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
   },
   {
-    "id": 20,
+    "id": 11,
     "name": "Royal Enfield-610",
     "price": 70000,
     "img": "https://images.unsplash.com/photo-1627062598433-016841c1f1e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"

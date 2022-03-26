@@ -1,6 +1,16 @@
-.cart-info h1 {
-  margin: 0;
-  padding-top: 10px;
-  font-size: 1.7rem;
-  text-align: center;
+.order-detials {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-detials img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.dlt-btn {
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin-left: 10px;
 }

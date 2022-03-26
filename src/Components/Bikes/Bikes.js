@@ -2,7 +2,7 @@ import React from "react";
 import "./Bikes.css";
 import { FaCartPlus } from "react-icons/fa";
 
-const Bikes = ({ data }) => {
+const Bikes = ({ data, addToCart }) => {
   const { name, img, price } = data;
 
   return (
@@ -11,7 +11,7 @@ const Bikes = ({ data }) => {
       <h2>{name}</h2>
       <h3>Price: {price}$</h3>
 
-      <button>
+      <button onClick={() => addToCart(data)}>
         Add To Cart <FaCartPlus></FaCartPlus>
       </button>
     </div>

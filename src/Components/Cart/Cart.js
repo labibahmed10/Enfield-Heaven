@@ -1,10 +1,18 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = () => {
+import { AiTwotoneDelete } from "react-icons/ai";
+
+const Cart = ({ cart }) => {
+  const { img, name } = cart;
+
   return (
-    <div className="cart-info">
-      <h1>Order History</h1>
+    <div className="order-detials">
+      <img src={img} alt="" />
+      <p>{name}</p>
+      <p className="dlt-btn">
+        <AiTwotoneDelete></AiTwotoneDelete>
+      </p>
     </div>
   );
 };
