@@ -1,0 +1,14 @@
+.ques-part3 {
+  padding: 30px;
+  background-color: aliceblue;
+  margin: 30px;
+  color: rgb(97, 97, 97);
+}
+
+.ques-part3 h1 {
+  text-align: center;
+}
+
+.ques-part3 p {
+  font-size: 1.2rem;
+}
