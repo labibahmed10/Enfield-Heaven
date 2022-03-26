@@ -24,13 +24,15 @@ const Product = () => {
   };
 
   // randomly generating one product
+
   const chooseOneFromCart = (cart) => {
-    // let number = Math.floor(Math.random() * 11) + 1;
-    // const random = cart.find((item) => item.id === number);
+    let number = Math.floor(Math.random() * 11) + 1;
+    const item = cart.find((item) => item.id === number);
+    console.log(item);
   };
 
   //removing all the products from cart
-  const removeFromCart = (cart) => {
+  const removeFromCart = () => {
     const vanishCart = [];
     setCart(vanishCart);
   };
@@ -59,7 +61,7 @@ const Product = () => {
           </button>
 
           {/* choose again btn */}
-          <button onClick={() => removeFromCart(cart)} className="btn-2">
+          <button onClick={() => removeFromCart()} className="btn-2">
             Choose Again
           </button>
         </div>
