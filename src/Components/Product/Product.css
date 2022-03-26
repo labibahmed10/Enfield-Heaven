@@ -5,6 +5,7 @@
   position: relative;
 }
 
+/* left side */
 .bike-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -12,6 +13,7 @@
   margin: 50px 10px;
 }
 
+/* cart part */
 .cart-container {
   background-color: #92a9bd;
   padding: 30px 10px;
@@ -19,7 +21,7 @@
   position: absolute;
   position: sticky;
   top: 0;
-  height: 530px;
+  height: 700px;
 }
 
 .cart-container h1 {
@@ -30,6 +32,7 @@
   margin-bottom: 50px;
 }
 
+/* cart containers button */
 .btn-1 {
   background-color: #8d8daa;
   border: 0;
@@ -57,7 +60,9 @@
   border-radius: 8px;
   font-size: 1rem;
 }
+/* end here */
 
+/* media responsive starts here */
 @media (max-width: 510px) {
   .main-container {
     grid-template-columns: 1fr;
@@ -66,5 +71,10 @@
   .bike-container {
     grid-template-columns: 1fr;
     padding: 0 50px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    padding: 11px;
   }
 }

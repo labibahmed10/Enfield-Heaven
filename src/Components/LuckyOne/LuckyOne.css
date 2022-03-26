@@ -1,0 +1,12 @@
+.luckyone {
+  background-color: #92a9bd;
+}
+
+.luckyone img {
+  height: 100px;
+  outline: 0;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}

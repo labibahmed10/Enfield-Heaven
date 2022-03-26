@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from "react";
 import Bikes from "../Bikes/Bikes";
 import Cart from "../Cart/Cart";
+import LuckyOne from "../LuckyOne/LuckyOne";
 import "./Product.css";
 
 const Product = () => {
   // setting main products
   const [products, setProducts] = useState([]);
+
+  // setting state of cart
+  const [cart, setCart] = useState([]);
+
+  // randomly generating one product
+  const [luckyone, setluckyone] = useState([]);
 
   // fetching from json file
   useEffect(() => {
@@ -14,27 +21,26 @@ const Product = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  // setting state of cart
-  const [cart, setCart] = useState([]);
-
   // state-lifting event handler to send cart array to Cart component
   const addToCart = (product) => {
     const newCart = [...cart, product];
     setCart(newCart.length >= 4 ? newCart.slice(0, 4) : newCart);
   };
 
-  // randomly generating one product
-
+  // randomly choosing one by clicking button
   const chooseOneFromCart = (cart) => {
     let number = Math.floor(Math.random() * 11) + 1;
-    const item = cart.find((item) => item.id === number);
-    console.log(item);
+    const random = cart.find((item) => item.id === number);
+    if (random) {
+      setluckyone(random);
+    }
   };
 
   //removing all the products from cart
   const removeFromCart = () => {
     const vanishCart = [];
     setCart(vanishCart);
+    setluckyone(vanishCart);
   };
 
   return (
@@ -65,6 +71,8 @@ const Product = () => {
             Choose Again
           </button>
         </div>
+        {/* that randomly generated one */}
+        <LuckyOne random={luckyone}></LuckyOne>
       </aside>
     </section>
   );
